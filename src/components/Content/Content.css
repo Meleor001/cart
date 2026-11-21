@@ -1,0 +1,134 @@
+.text_box > h1{
+  font-size: 74px;
+  
+}
+.text_box >p{
+  font-size: 18px;
+}
+.text_box > button {
+  width: 176px;
+  height: 176px;
+  font-size: 18px;
+   padding: 10px 20px; 
+  background: #3f3f3f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-top: 72px;
+}
+
+
+
+.first_box{
+    background-image: url(./images/hero\ image\ 1.jpg);
+    height: 600px;
+    width: 90%;
+    background-repeat: no-repeat;
+    background-size: 50%;
+    background-position: right center;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+
+.two_box{
+  display: flex;
+  background-color: #DDC7BB ;
+  width:60%;
+  height: 100px;
+  align-items: center;
+  border-radius: 15px;
+  padding: 51px 30px;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+.input_box > input{
+  width: 237px;
+  height: 20px;
+  font-size: 18px;
+  font-weight: bold;
+  padding: 18px 15px;
+  border: none;
+  border-radius: 7px;
+
+}
+.input_box > input:not(:last-child){
+  margin-right: 25px;
+}
+.two_box > button{
+  width: 160px;
+  height: 58px;
+  font-size: 18px;
+  background: #3f3f3f;
+  color: white;
+  border: none;
+  border-radius: 7px;
+  margin-left: 54px;
+}
+.input_location{
+  background-image: url(./images/location.png);
+  background-repeat: no-repeat;
+  background-position: center right +10px;
+}
+.input_type{
+  background-image: url(./images/vector1.png);
+  background-repeat: no-repeat;
+  background-position: center right +10px;
+}
+.input_price{
+  background-image: url(./images/vector2.png);
+  background-repeat: no-repeat;
+  background-position: center right +10px;
+}
+.hero {
+  display: flex;
+  align-items: center;
+  gap: 60px;
+  max-width: 1100px;
+  width: 100%;
+  padding: 40px;
+  position: relative;
+}
+
+
+.hero_image {
+  flex: 1;
+}
+
+.hero_image img {
+  width: 100%;
+  height: auto;
+  border-radius: 16px;
+  display: flex;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+}
+.hero_content{
+  flex: 1px;
+
+}
+.hero_title{
+  font-size: 45px;
+  width:514px;
+  height: 112px;
+  color: #2a2a2a;
+  margin-bottom: 24px;
+  margin-top: -210px;
+}
+.hero_text > p{
+width: 700px;
+font-size: 25px;
+position: absolute;
+margin-left: -575px;
+margin-top: -80px;
+}
+.status {
+  display: flex;
+  column-gap: 40px;
+  position: absolute;
+  bottom: 100px;
+  right: 0;
+  font-size: 20px;
+}
+
